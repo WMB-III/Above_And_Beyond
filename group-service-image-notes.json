@@ -1,0 +1,25 @@
+{
+  "mode": "Built-in image editor",
+  "images": [
+    {
+      "id": "airport",
+      "prompt": "Photorealistic editorial photograph for a luxury chauffeured group transportation website service card. A black luxury passenger shuttle van parked at an airport arrivals curb with luggage beside it and a passenger aircraft visible in the distant background. No readable signs. Cohesive understated black, charcoal and warm gold palette, soft cinematic evening lighting, realistic premium photography, clear visual focus, landscape 4:3 composition with subjects comfortably inside frame. Environmental background, not white studio. No text, no graphic icons, no watermarks, no invented company logos.",
+      "saved_path": "assets/group-service-airport.png"
+    },
+    {
+      "id": "corporate",
+      "prompt": "Photorealistic editorial photograph for a luxury chauffeured group transportation website service card. A black executive SUV outside a refined conference hotel entrance, two business travelers in professional attire with briefcases being welcomed by a chauffeur. Natural candid poses. Cohesive understated black, charcoal and warm gold palette, soft cinematic evening lighting, realistic premium photography, clear visual focus, landscape 4:3 composition with subjects comfortably inside frame. Environmental background, not white studio. No text, no graphic icons, no watermarks, no invented company logos.",
+      "saved_path": "assets/group-service-corporate.png"
+    },
+    {
+      "id": "events",
+      "prompt": "Photorealistic editorial photograph for a luxury chauffeured group transportation website service card. A black luxury mini coach waiting outside an elegant evening private event venue, a small group of formally dressed guests approaching, warm festoon lights and tasteful floral decorations. Cohesive understated black, charcoal and warm gold palette, soft cinematic evening lighting, realistic premium photography, clear visual focus, landscape 4:3 composition with subjects comfortably inside frame. Environmental background, not white studio. No text, no graphic icons, no watermarks, no invented company logos.",
+      "saved_path": "assets/group-service-events.png"
+    }
+  ],
+  "wedding_border_edit": {
+    "saved_path": "assets/wedding-borderless.png",
+    "prompt": "Precise edit of this existing service banner. Remove ONLY the thin white horizontal line near the top and thin white vertical line near the left edge (the strange white border), seamlessly filling those pixels with the adjacent original photographic scene. Preserve EVERYTHING ELSE unchanged: exact original composition, dimensions and 1600:614 aspect ratio, car, flowers, lighting, rings icon, gold arrow, and exact typography and text 'WEDDINGS', 'Elegant transportation', 'for your special day'. Do not crop, zoom, reframe, redesign, change colors, alter lettering, or add any border. Output the same wide aspect ratio.",
+    "mode": "Built-in image editor"
+  }
+}

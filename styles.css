@@ -250,3 +250,80 @@ footer a,footer small{font-size:clamp(13px,.86vw,16px)!important;line-height:1.6
 /* Services section title follows the page heading typography. */
 .services-heading{text-align:center;margin:16px 0 32px}
 .services-heading h2{margin:0}
+
+/* Fluid layouts from compact phones to wide desktops. */
+main{max-width:1920px;margin-inline:auto}
+main>section.hero{margin-top:clamp(16px,2vw,32px);height:auto;min-height:clamp(560px,44vw,740px);padding-bottom:90px}
+.hero-content,.inner-hero-copy{width:100%;min-width:0}
+.hero-content{padding-right:clamp(20px,4vw,60px)}
+.section-heading{flex-wrap:wrap}
+.section-heading>div,.contact>div,.contact-layout>div,.contact-layout>form,.feature-box,.vehicle,.vehicle-meta{min-width:0}
+.fleet-grid,.fleet-page .fleet-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+.btn{max-width:100%;white-space:normal;text-align:center;overflow-wrap:anywhere}
+p,h1,h2,h3,a,label{overflow-wrap:anywhere}
+input,select,textarea{max-width:100%;min-width:0}
+.inquiry-form{min-width:0}
+.form-row{grid-template-columns:repeat(2,minmax(0,1fr))}
+textarea{resize:vertical}
+.statline,footer>div{flex-wrap:wrap}
+.fleet-lightbox-header>div{min-width:0}
+.fleet-lightbox-close{flex-shrink:0}
+.fleet-lightbox-thumbs button{flex-shrink:0}
+@media(max-width:1200px){
+ .topbar{height:86px}
+ .menu-toggle{display:block;margin-left:auto;min-width:44px;min-height:44px;flex-shrink:0}
+ .topbar nav{display:none;position:absolute;top:100%;left:0;right:0;background:#060707;padding:20px;flex-direction:column;align-items:stretch;max-height:calc(100dvh - 86px);overflow-y:auto;margin:0}
+ .topbar nav.open{display:flex}
+ .topbar nav a{font-size:16px!important;min-height:44px;display:flex;align-items:center;padding:8px}
+ .topbar .phone{display:none}
+}
+@media(max-width:780px){
+ .contact,.contact-layout{grid-template-columns:minmax(0,1fr);gap:30px}
+ .escort{flex-direction:column;align-items:stretch;gap:24px}
+ .escort-monogram{display:none}
+ .section-heading{display:block}
+}
+@media(max-width:620px){
+ .topbar{height:80px;padding-inline:12px;gap:8px}
+ .topbar .navbook{padding:10px;font-size:11px!important;letter-spacing:.03em;gap:6px}
+ .hero h1,.inner-hero h1{font-size:clamp(34px,10.5vw,65px);line-height:1}
+ .hero-content{padding-inline:20px}
+ .inner-hero-copy{padding:56px 20px 84px}
+ .inner-hero-foot{left:20px;right:20px;letter-spacing:1px}
+ .section{padding:52px 20px}
+ .fleet-grid,.fleet-page .fleet-grid{grid-template-columns:minmax(0,1fr);gap:18px}
+ .vehicle-meta{padding:20px}
+ .feature-grid,.form-row{grid-template-columns:minmax(0,1fr)}
+ .feature-box,.contact-card,.inquiry-form{padding:24px 18px}
+ .contact-large{font-size:clamp(22px,7vw,38px)}
+ h2{font-size:clamp(30px,8vw,48px)}
+ .eyebrow{letter-spacing:2px}
+ .actions{align-items:stretch}
+ .actions .btn{flex:1 1 220px}
+ .cta-band{padding:40px 20px;gap:24px}
+ .sprinter-options{padding-inline:20px}
+ .sprinter-passenger-buttons button{flex:1 0 100px}
+}
+@media(max-width:340px){
+ .topbar .logo{width:72px;flex-basis:72px}
+ .topbar .logo img{width:72px}
+ .topbar .navbook{font-size:10px!important;padding:8px;flex:1}
+ .hero-content{padding-inline:16px}
+ .section{padding-inline:16px}
+}
+
+/* Keep capacity labels and button wrapping stable when selection changes. */
+.sprinter-passenger-buttons button{font-weight:700}
+.fleet-photo-card:has(.sprinter-options) .fleet-capacity{min-height:3.2em}
+
+/* Group service cards share a consistent, uncropped fleet photo area. */
+.feature-box.group-service-card{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.group-service-photo{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#fff}
+.group-service-copy{padding:28px 24px;flex:1}
+.group-service-copy h3{margin-top:16px}
+@media(max-width:540px){.group-service-copy{padding:24px 18px}}
+
+/* Every fleet card reserves the same image area without cropping vehicles. */
+.fleet-photo-card .vehicle-art.fleet-cover{aspect-ratio:4/3;height:auto;background:#fff}
+.fleet-photo-card .vehicle-art.fleet-cover img{width:100%;height:100%;object-fit:contain;background:#fff}
+.fleet-photo-card .fleet-no-cover{height:100%;min-height:0}
