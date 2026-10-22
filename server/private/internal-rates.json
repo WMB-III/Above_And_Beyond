@@ -1,0 +1,669 @@
+{
+  "version": "2026-02-25-standard-source-v4",
+  "ratePlans": [
+    {
+      "id": "standard-genesis-g80",
+      "label": "Standard \u2014 Genesis G80",
+      "accountId": null,
+      "authorizedRoles": [
+        "admin",
+        "attendant"
+      ],
+      "vehicleId": "genesis-g80",
+      "maxPassengers": 2,
+      "vehicleMinHours": 0,
+      "destinationMinHours": 0,
+      "effectiveFrom": "2026-02-25",
+      "effectiveUntil": null,
+      "tiers": {
+        "2": {
+          "totalCents": 22828,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 33742,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 44656,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 55570,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 66484,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2
+    },
+    {
+      "id": "standard-mercedes-cls",
+      "label": "Standard \u2014 Mercedes CLS",
+      "accountId": null,
+      "authorizedRoles": [
+        "admin",
+        "attendant"
+      ],
+      "vehicleId": "mercedes-cls",
+      "maxPassengers": 2,
+      "vehicleMinHours": 0,
+      "destinationMinHours": 0,
+      "effectiveFrom": "2026-02-25",
+      "effectiveUntil": null,
+      "tiers": {
+        "3": {
+          "totalCents": 37594,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 49792,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 61990,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 74188,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2
+    },
+    {
+      "id": "standard-lincoln-aviator",
+      "label": "Standard \u2014 Lincoln Aviator",
+      "accountId": null,
+      "authorizedRoles": [
+        "admin",
+        "attendant"
+      ],
+      "vehicleId": "lincoln-aviator",
+      "maxPassengers": 2,
+      "vehicleMinHours": 0,
+      "destinationMinHours": 0,
+      "effectiveFrom": "2026-02-25",
+      "effectiveUntil": null,
+      "tiers": {
+        "2": {
+          "totalCents": 26680,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 39520,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 52360,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 65200,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 78040,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2
+    },
+    {
+      "id": "standard-volvo-s90",
+      "label": "Standard \u2014 Volvo S90",
+      "accountId": null,
+      "authorizedRoles": [
+        "admin",
+        "attendant"
+      ],
+      "vehicleId": "volvo-s90",
+      "maxPassengers": 2,
+      "vehicleMinHours": 0,
+      "destinationMinHours": 0,
+      "effectiveFrom": "2026-02-25",
+      "effectiveUntil": null,
+      "tiers": {
+        "2": {
+          "totalCents": 30960,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 45940,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 60920,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 75900,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 90880,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2
+    },
+    {
+      "id": "standard-standard-suv",
+      "label": "Standard \u2014 Suburban / Tahoe (Standard SUV)",
+      "accountId": null,
+      "authorizedRoles": [
+        "admin",
+        "attendant"
+      ],
+      "vehicleId": "standard-suv",
+      "maxPassengers": 4,
+      "vehicleMinHours": 0,
+      "destinationMinHours": 0,
+      "effectiveFrom": "2026-02-25",
+      "effectiveUntil": null,
+      "tiers": {
+        "2": {
+          "totalCents": 25396,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 37594,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 49792,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 61990,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 74188,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2
+    },
+    {
+      "id": "standard-escalade-yukon",
+      "label": "Standard \u2014 Escalade / Yukon (5 passenger)",
+      "accountId": null,
+      "authorizedRoles": [
+        "admin",
+        "attendant"
+      ],
+      "vehicleId": "escalade-yukon",
+      "maxPassengers": 5,
+      "vehicleMinHours": 0,
+      "destinationMinHours": 0,
+      "effectiveFrom": "2026-02-25",
+      "effectiveUntil": null,
+      "tiers": {
+        "2": {
+          "totalCents": 33100,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 49150,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 65200,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 81250,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 97300,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2
+    },
+    {
+      "id": "standard-escalade-six",
+      "label": "Standard \u2014 Cadillac Escalade (6 passenger, unit #63)",
+      "accountId": null,
+      "authorizedRoles": [
+        "admin",
+        "attendant"
+      ],
+      "vehicleId": "escalade-six",
+      "maxPassengers": 6,
+      "vehicleMinHours": 0,
+      "destinationMinHours": 0,
+      "effectiveFrom": "2026-02-25",
+      "effectiveUntil": null,
+      "tiers": {
+        "2": {
+          "totalCents": 33100,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 49150,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 65200,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 81250,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 97300,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2
+    },
+    {
+      "id": "standard-mercedes-sprinter",
+      "label": "Standard \u2014 Mercedes Sprinter",
+      "accountId": null,
+      "authorizedRoles": [
+        "admin",
+        "attendant"
+      ],
+      "vehicleId": "mercedes-sprinter",
+      "maxPassengers": 14,
+      "vehicleMinHours": 2,
+      "destinationMinHours": 0,
+      "effectiveFrom": "2026-02-25",
+      "effectiveUntil": null,
+      "tiers": {
+        "2": {
+          "totalCents": 35668,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 53002,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 70336,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 87670,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 105004,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 3
+    },
+    {
+      "id": "standard-ford-transit",
+      "label": "Standard \u2014 Ford Transit",
+      "accountId": null,
+      "authorizedRoles": [
+        "admin",
+        "attendant"
+      ],
+      "vehicleId": "ford-transit",
+      "maxPassengers": 13,
+      "vehicleMinHours": 2,
+      "destinationMinHours": 0,
+      "effectiveFrom": "2026-02-25",
+      "effectiveUntil": null,
+      "tiers": {
+        "2": {
+          "totalCents": 30532,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 45298,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 60064,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 74830,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 89596,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 3
+    },
+    {
+      "id": "standard-coach-23",
+      "label": "Standard \u2014 23-passenger Mini Coach",
+      "accountId": null,
+      "authorizedRoles": [
+        "admin",
+        "attendant"
+      ],
+      "vehicleId": "coach-23",
+      "maxPassengers": 23,
+      "vehicleMinHours": 3,
+      "destinationMinHours": 0,
+      "effectiveFrom": "2026-02-25",
+      "effectiveUntil": null,
+      "tiers": {
+        "3": {
+          "totalCents": 56928,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 74904,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 92880,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 110856,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 4
+    },
+    {
+      "id": "standard-coach-28",
+      "label": "Standard \u2014 28-passenger Mini Coach",
+      "accountId": null,
+      "authorizedRoles": [
+        "admin",
+        "attendant"
+      ],
+      "vehicleId": "coach-28",
+      "maxPassengers": 28,
+      "vehicleMinHours": 3,
+      "destinationMinHours": 0,
+      "effectiveFrom": "2026-02-25",
+      "effectiveUntil": null,
+      "tiers": {
+        "3": {
+          "totalCents": 63990,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 84320,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 104650,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 124980,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 4
+    },
+    {
+      "id": "standard-coach-39",
+      "label": "Standard \u2014 39-passenger Mini Coach",
+      "accountId": null,
+      "authorizedRoles": [
+        "admin",
+        "attendant"
+      ],
+      "vehicleId": "coach-39",
+      "maxPassengers": 39,
+      "vehicleMinHours": 4,
+      "destinationMinHours": 0,
+      "effectiveFrom": "2026-02-25",
+      "effectiveUntil": null,
+      "tiers": {
+        "4": {
+          "totalCents": 90312,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 112140,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 133968,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 4
+    },
+    {
+      "id": "standard-coach-56",
+      "label": "Standard \u2014 56-passenger Motor Coach",
+      "accountId": null,
+      "authorizedRoles": [
+        "admin",
+        "attendant"
+      ],
+      "vehicleId": "coach-56",
+      "maxPassengers": 56,
+      "vehicleMinHours": 5,
+      "destinationMinHours": 0,
+      "effectiveFrom": "2026-02-25",
+      "effectiveUntil": null,
+      "tiers": {
+        "5": {
+          "totalCents": 136750,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 163500,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 4
+    }
+  ],
+  "sourceStatus": "Original desk reference received and standard rate tiers reconciled. Affiliate terms are intentionally not bundled.",
+  "approvalQueue": [
+    "Management signoff for public pricing",
+    "Mercedes CLS missing 2-hour tier",
+    "Escalade specific unit luggage/capacity",
+    "Day-rate discounts conflict with separate $5 round trip rule",
+    "Hotel Bardo and affiliate airport contracts",
+    "Special Florida and Atlanta coach packages",
+    "Airport/FBO and Gulfstream billing rules",
+    "Coach deposit exceptions",
+    "Quote effective date and price policy"
+  ],
+  "sourcePages": [
+    1,
+    2,
+    3,
+    4
+  ]
+}

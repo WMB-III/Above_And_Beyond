@@ -1,0 +1,879 @@
+{
+  "schemaVersion": "1.0",
+  "version": "2026-02-25-source-transcription-v4",
+  "effectiveDate": "2026-02-25",
+  "disclaimer": "Estimate only \u2014 not a reservation or availability guarantee.",
+  "currency": "USD",
+  "taxNotice": "Standard listed 2\u20136-hour totals include taxes and surcharges; gratuity is excluded.",
+  "gratuityNotice": "Gratuity is not included in the shown standard prices.",
+  "vehicles": [
+    {
+      "id": "genesis-g80",
+      "name": "Genesis G80",
+      "category": "sedan",
+      "passengerCapacity": 2,
+      "luggageCapacity": null,
+      "minHours": 0,
+      "tiers": {
+        "2": {
+          "totalCents": 22828,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 33742,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 44656,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 55570,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 66484,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "mercedes-cls",
+      "name": "Mercedes CLS",
+      "category": "sedan",
+      "passengerCapacity": 2,
+      "luggageCapacity": null,
+      "minHours": 0,
+      "tiers": {
+        "3": {
+          "totalCents": 37594,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 49792,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 61990,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 74188,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "lincoln-aviator",
+      "name": "Lincoln Aviator",
+      "category": "sedan",
+      "passengerCapacity": 2,
+      "luggageCapacity": null,
+      "minHours": 0,
+      "tiers": {
+        "2": {
+          "totalCents": 26680,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 39520,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 52360,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 65200,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 78040,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "volvo-s90",
+      "name": "Volvo S90",
+      "category": "sedan",
+      "passengerCapacity": 2,
+      "luggageCapacity": null,
+      "minHours": 0,
+      "tiers": {
+        "2": {
+          "totalCents": 30960,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 45940,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 60920,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 75900,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 90880,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "standard-suv",
+      "name": "Suburban / Tahoe (Standard SUV)",
+      "category": "suv",
+      "passengerCapacity": 4,
+      "luggageCapacity": null,
+      "minHours": 0,
+      "tiers": {
+        "2": {
+          "totalCents": 25396,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 37594,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 49792,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 61990,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 74188,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "escalade-yukon",
+      "name": "Escalade / Yukon (5 passenger)",
+      "category": "suv",
+      "passengerCapacity": 5,
+      "luggageCapacity": null,
+      "minHours": 0,
+      "tiers": {
+        "2": {
+          "totalCents": 33100,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 49150,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 65200,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 81250,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 97300,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "escalade-six",
+      "name": "Cadillac Escalade (6 passenger, unit #63)",
+      "category": "suv",
+      "passengerCapacity": 6,
+      "luggageCapacity": null,
+      "minHours": 0,
+      "tiers": {
+        "2": {
+          "totalCents": 33100,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 49150,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 65200,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 81250,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 97300,
+          "approvalStatus": "approved",
+          "sourcePage": 2,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 2,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "mercedes-sprinter",
+      "name": "Mercedes Sprinter",
+      "category": "van",
+      "passengerCapacity": 14,
+      "luggageCapacity": null,
+      "minHours": 2,
+      "tiers": {
+        "2": {
+          "totalCents": 35668,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 53002,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 70336,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 87670,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 105004,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 3,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "ford-transit",
+      "name": "Ford Transit",
+      "category": "van",
+      "passengerCapacity": 13,
+      "luggageCapacity": null,
+      "minHours": 2,
+      "tiers": {
+        "2": {
+          "totalCents": 30532,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 45298,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 60064,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 74830,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 89596,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 3,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "luggage-van",
+      "name": "Luggage Van (cargo only)",
+      "category": "cargo",
+      "passengerCapacity": 0,
+      "luggageCapacity": null,
+      "minHours": 0,
+      "tiers": {
+        "2": {
+          "totalCents": 30000,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "3": {
+          "totalCents": 45000,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 60000,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 75000,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 90000,
+          "approvalStatus": "approved",
+          "sourcePage": 3,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 3,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "coach-23",
+      "name": "23-passenger Mini Coach",
+      "category": "coach",
+      "passengerCapacity": 23,
+      "luggageCapacity": null,
+      "minHours": 3,
+      "tiers": {
+        "3": {
+          "totalCents": 56928,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 74904,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 92880,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 110856,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 4,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "coach-28",
+      "name": "28-passenger Mini Coach",
+      "category": "coach",
+      "passengerCapacity": 28,
+      "luggageCapacity": null,
+      "minHours": 3,
+      "tiers": {
+        "3": {
+          "totalCents": 63990,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "4": {
+          "totalCents": 84320,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 104650,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 124980,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 4,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "coach-39",
+      "name": "39-passenger Mini Coach",
+      "category": "coach",
+      "passengerCapacity": 39,
+      "luggageCapacity": null,
+      "minHours": 4,
+      "tiers": {
+        "4": {
+          "totalCents": 90312,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "5": {
+          "totalCents": 112140,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 133968,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 4,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "coach-56",
+      "name": "56-passenger Motor Coach",
+      "category": "coach",
+      "passengerCapacity": 56,
+      "luggageCapacity": null,
+      "minHours": 5,
+      "tiers": {
+        "5": {
+          "totalCents": 136750,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        },
+        "6": {
+          "totalCents": 163500,
+          "approvalStatus": "approved",
+          "sourcePage": 4,
+          "includesTaxAndSurcharges": true,
+          "gratuityStatus": "excluded"
+        }
+      },
+      "approvalStatus": "approved",
+      "sourcePage": 4,
+      "rateStatus": "Transcribed from Feb 25, 2026 desk reference; confirm management authorization for public publication."
+    },
+    {
+      "id": "mercedes-s450",
+      "name": "Mercedes S450 (rate not listed)",
+      "category": "sedan",
+      "passengerCapacity": null,
+      "luggageCapacity": null,
+      "minHours": null,
+      "tiers": {},
+      "approvalStatus": "unverified",
+      "sourcePage": null
+    }
+  ],
+  "routes": [
+    {
+      "id": "dest-bluffton-sc",
+      "name": "Bluffton, SC",
+      "minHours": 2,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-okatie-sc",
+      "name": "Okatie, SC",
+      "minHours": 2,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-richmond-hill-ga",
+      "name": "Richmond Hill, GA",
+      "minHours": 2,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-skidaway-island-ga",
+      "name": "Skidaway Island, GA",
+      "minHours": 2,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-tybee-island-ga",
+      "name": "Tybee Island, GA",
+      "minHours": 2,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-wilmington-island-ga",
+      "name": "Wilmington Island, GA",
+      "minHours": 2,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-whitmarsh-island-ga",
+      "name": "Whitmarsh Island, GA",
+      "minHours": 2,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-brunswick-ga",
+      "name": "Brunswick, GA",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-cobbtown-ga",
+      "name": "Cobbtown, GA",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-darien-ga",
+      "name": "Darien, GA",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-hinesville-ga",
+      "name": "Hinesville, GA",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-jesup-ga",
+      "name": "Jesup, GA",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-midway-ga",
+      "name": "Midway, GA",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-ohoopee-ga",
+      "name": "Ohoopee, GA",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-riceboro-ga",
+      "name": "Riceboro, GA",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-saint-simons-ga",
+      "name": "Saint Simons, GA",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-sea-island-ga",
+      "name": "Sea Island, GA",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-sea-pines-sc",
+      "name": "Sea Pines, SC",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-statesboro-ga",
+      "name": "Statesboro, GA",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-vidalia-ga",
+      "name": "Vidalia, GA",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-beaufort-sc",
+      "name": "Beaufort, SC",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-fripp-island-sc",
+      "name": "Fripp Island, SC",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-hilton-head-sc",
+      "name": "Hilton Head, SC",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-saint-helena-sc",
+      "name": "Saint Helena, SC",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-sheldon-sc",
+      "name": "Sheldon, SC",
+      "minHours": 3,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-jacksonville-fl",
+      "name": "Jacksonville, FL",
+      "minHours": 5,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-charleston-sc",
+      "name": "Charleston, SC",
+      "minHours": 5,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-macon-ga",
+      "name": "Macon, GA",
+      "minHours": 5,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    },
+    {
+      "id": "dest-augusta-ga",
+      "name": "Augusta, GA",
+      "minHours": 5,
+      "approvalStatus": "approved",
+      "sourcePage": 1,
+      "vehicleRates": {}
+    }
+  ],
+  "rules": {
+    "minimumHourPolicy": "max(vehicle minimum, destination minimum)",
+    "roundTripDiscount": null,
+    "taxPolicy": "do not add tax to published inclusive totals"
+  },
+  "source": "ABL desk reference, revised February 25, 2026, pages 1\u20134",
+  "publicationStatus": "draft_pending_management_signoff"
+}

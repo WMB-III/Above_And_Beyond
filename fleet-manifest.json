@@ -1,0 +1,358 @@
+{
+  "version": "4.0",
+  "galleries": [
+    {
+      "gallery_id": "vehicle-40",
+      "vehicle_numbers": [
+        40
+      ],
+      "pax_max_capacity": 2,
+      "folder": "V040_PAX02",
+      "identification_status": "CONFIRMED_NUMBER",
+      "cover_image": "V040_PAX02/ABL-V040-PAX02-01-EXTERIOR.jpg",
+      "website_cover_approved": true,
+      "gallery_image_paths": [
+        "V040_PAX02/ABL-V040-PAX02-01-EXTERIOR.jpg",
+        "V040_PAX02/ABL-V040-PAX02-02-EXTERIOR.jpg",
+        "V040_PAX02/ABL-V040-PAX02-03-INTERIOR.jpg"
+      ]
+    },
+    {
+      "gallery_id": "unresolved-46-47-2pax",
+      "vehicle_numbers": [
+        46,
+        47
+      ],
+      "pax_max_capacity": 2,
+      "folder": "U046_047_PAX02",
+      "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
+      "cover_image": "U046_047_PAX02/ABL-U046_047-PAX02-01-EXTERIOR.jpg",
+      "website_cover_approved": false,
+      "gallery_image_paths": [
+        "U046_047_PAX02/ABL-U046_047-PAX02-01-EXTERIOR.jpg",
+        "U046_047_PAX02/ABL-U046_047-PAX02-02-EXTERIOR.jpeg",
+        "U046_047_PAX02/ABL-U046_047-PAX02-03-INTERIOR.jpg"
+      ]
+    },
+    {
+      "gallery_id": "unresolved-51-55-60-61-62-63-67-4pax",
+      "vehicle_numbers": [
+        51,
+        55,
+        60,
+        61,
+        62,
+        63,
+        67
+      ],
+      "pax_max_capacity": 4,
+      "folder": "U051_055_060_061_062_063_067_PAX04",
+      "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
+      "cover_image": null,
+      "website_cover_approved": false,
+      "gallery_image_paths": [
+        "U051_055_060_061_062_063_067_PAX04/ABL-U051_055_060_061_062_063_067-PAX04-01-INTERIOR.jpeg"
+      ]
+    },
+    {
+      "gallery_id": "unresolved-52-54-2pax",
+      "vehicle_numbers": [
+        52,
+        54
+      ],
+      "pax_max_capacity": 2,
+      "folder": "U052_054_PAX02",
+      "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
+      "cover_image": "U052_054_PAX02/ABL-U052_054-PAX02-01-EXTERIOR.jpg",
+      "website_cover_approved": false,
+      "gallery_image_paths": [
+        "U052_054_PAX02/ABL-U052_054-PAX02-01-EXTERIOR.jpg",
+        "U052_054_PAX02/ABL-U052_054-PAX02-02-INTERIOR.jpg",
+        "U052_054_PAX02/ABL-U052_054-PAX02-03-INTERIOR.jpg"
+      ]
+    },
+    {
+      "gallery_id": "unresolved-58-65-5pax",
+      "vehicle_numbers": [
+        58,
+        65
+      ],
+      "pax_max_capacity": 5,
+      "folder": "U058_065_PAX05",
+      "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
+      "cover_image": "U058_065_PAX05/ABL-U058_065-PAX05-01-EXTERIOR.jpg",
+      "website_cover_approved": false,
+      "gallery_image_paths": [
+        "U058_065_PAX05/ABL-U058_065-PAX05-01-EXTERIOR.jpg"
+      ]
+    },
+    {
+      "gallery_id": "vehicle-65",
+      "vehicle_numbers": [
+        65
+      ],
+      "pax_max_capacity": 5,
+      "folder": "V065_PAX05",
+      "identification_status": "CONFIRMED_NUMBER",
+      "cover_image": "V065_PAX05/ABL-V065-PAX05-01-EXTERIOR.jpg",
+      "website_cover_approved": true,
+      "gallery_image_paths": [
+        "V065_PAX05/ABL-V065-PAX05-01-EXTERIOR.jpg"
+      ]
+    },
+    {
+      "gallery_id": "vehicle-66",
+      "vehicle_numbers": [
+        66
+      ],
+      "pax_max_capacity": 5,
+      "folder": "V066_PAX05",
+      "identification_status": "CONFIRMED_NUMBER",
+      "cover_image": "V066_PAX05/ABL-V066-PAX05-01-EXTERIOR.jpg",
+      "website_cover_approved": true,
+      "gallery_image_paths": [
+        "V066_PAX05/ABL-V066-PAX05-01-EXTERIOR.jpg",
+        "V066_PAX05/ABL-V066-PAX05-02-SIDE.jpg",
+        "V066_PAX05/ABL-V066-PAX05-03-INTERIOR.jpg",
+        "V066_PAX05/ABL-V066-PAX05-04-LUGGAGE.jpg"
+      ]
+    },
+    {
+      "gallery_id": "vehicle-68",
+      "vehicle_numbers": [
+        68
+      ],
+      "pax_max_capacity": 13,
+      "folder": "V068_PAX13",
+      "identification_status": "CONFIRMED_NUMBER",
+      "cover_image": "V068_PAX13/ABL-V068-PAX13-01-EXTERIOR.jpg",
+      "website_cover_approved": true,
+      "gallery_image_paths": [
+        "V068_PAX13/ABL-V068-PAX13-01-EXTERIOR.jpg",
+        "V068_PAX13/ABL-V068-PAX13-02-EXTERIOR.jpg",
+        "V068_PAX13/ABL-V068-PAX13-03-INTERIOR.jpg",
+        "V068_PAX13/ABL-V068-PAX13-04-LUGGAGE.jpg"
+      ]
+    },
+    {
+      "gallery_id": "unresolved-68-71-74-75-77-79-13pax",
+      "vehicle_numbers": [
+        68,
+        71,
+        74,
+        75,
+        77,
+        79
+      ],
+      "pax_max_capacity": 13,
+      "folder": "U068_071_074_075_077_079_PAX13",
+      "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
+      "cover_image": "U068_071_074_075_077_079_PAX13/ABL-U068_071_074_075_077_079-PAX13-01-FRONT.jpg",
+      "website_cover_approved": false,
+      "gallery_image_paths": [
+        "U068_071_074_075_077_079_PAX13/ABL-U068_071_074_075_077_079-PAX13-01-FRONT.jpg",
+        "U068_071_074_075_077_079_PAX13/ABL-U068_071_074_075_077_079-PAX13-02-SIDE.jpg",
+        "U068_071_074_075_077_079_PAX13/ABL-U068_071_074_075_077_079-PAX13-03-SIDE.jpg",
+        "U068_071_074_075_077_079_PAX13/ABL-U068_071_074_075_077_079-PAX13-04-LUGGAGE.jpeg"
+      ]
+    },
+    {
+      "gallery_id": "unresolved-69-78-14pax",
+      "vehicle_numbers": [
+        69,
+        78
+      ],
+      "pax_max_capacity": 14,
+      "folder": "U069_078_PAX14",
+      "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
+      "cover_image": "U069_078_PAX14/ABL-U069_078-PAX14-01-FRONT.jpeg",
+      "website_cover_approved": false,
+      "gallery_image_paths": [
+        "U069_078_PAX14/ABL-U069_078-PAX14-01-FRONT.jpeg",
+        "U069_078_PAX14/ABL-U069_078-PAX14-02-INTERIOR.jpeg"
+      ]
+    },
+    {
+      "gallery_id": "unresolved-71-75-13pax",
+      "vehicle_numbers": [
+        71,
+        75
+      ],
+      "pax_max_capacity": 13,
+      "folder": "U071_075_PAX13",
+      "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
+      "cover_image": null,
+      "website_cover_approved": false,
+      "gallery_image_paths": [
+        "U071_075_PAX13/ABL-U071_075-PAX13-01-INTERIOR.jpg",
+        "U071_075_PAX13/ABL-U071_075-PAX13-02-LUGGAGE.jpg"
+      ]
+    },
+    {
+      "gallery_id": "vehicle-72",
+      "vehicle_numbers": [
+        72
+      ],
+      "pax_max_capacity": 9,
+      "folder": "V072_PAX09",
+      "identification_status": "CONFIRMED_NUMBER",
+      "cover_image": null,
+      "website_cover_approved": false,
+      "gallery_image_paths": [
+        "V072_PAX09/ABL-V072-PAX09-01-INTERIOR.jpeg"
+      ]
+    },
+    {
+      "gallery_id": "vehicle-75",
+      "vehicle_numbers": [
+        75
+      ],
+      "pax_max_capacity": 13,
+      "folder": "V075_PAX13",
+      "identification_status": "CONFIRMED_NUMBER",
+      "cover_image": "V075_PAX13/ABL-V075-PAX13-01-FRONT.jpeg",
+      "website_cover_approved": true,
+      "gallery_image_paths": [
+        "V075_PAX13/ABL-V075-PAX13-01-FRONT.jpeg",
+        "V075_PAX13/ABL-V075-PAX13-02-SIDE.jpeg",
+        "V075_PAX13/ABL-V075-PAX13-03-SIDE.jpg",
+        "V075_PAX13/ABL-V075-PAX13-04-INTERIOR.jpg",
+        "V075_PAX13/ABL-V075-PAX13-05-INTERIOR.jpeg"
+      ]
+    },
+    {
+      "gallery_id": "vehicle-76",
+      "vehicle_numbers": [
+        76
+      ],
+      "pax_max_capacity": 10,
+      "folder": "V076_PAX10",
+      "identification_status": "CONFIRMED_NUMBER",
+      "cover_image": "V076_PAX10/ABL-V076-PAX10-01-EXTERIOR.jpg",
+      "website_cover_approved": true,
+      "gallery_image_paths": [
+        "V076_PAX10/ABL-V076-PAX10-01-EXTERIOR.jpg",
+        "V076_PAX10/ABL-V076-PAX10-02-INTERIOR.jpg",
+        "V076_PAX10/ABL-V076-PAX10-03-LUGGAGE.jpg"
+      ]
+    },
+    {
+      "gallery_id": "vehicle-77",
+      "vehicle_numbers": [
+        77
+      ],
+      "pax_max_capacity": 13,
+      "folder": "V077_PAX13",
+      "identification_status": "CONFIRMED_NUMBER",
+      "cover_image": null,
+      "website_cover_approved": false,
+      "gallery_image_paths": [
+        "V077_PAX13/ABL-V077-PAX13-01-INTERIOR.jpeg",
+        "V077_PAX13/ABL-V077-PAX13-02-INTERIOR.jpeg"
+      ]
+    },
+    {
+      "gallery_id": "unresolved-81-86-23pax",
+      "vehicle_numbers": [
+        81,
+        86
+      ],
+      "pax_max_capacity": 23,
+      "folder": "U081_086_PAX23",
+      "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
+      "cover_image": "U081_086_PAX23/ABL-U081_086-PAX23-01-EXTERIOR.png",
+      "website_cover_approved": false,
+      "gallery_image_paths": [
+        "U081_086_PAX23/ABL-U081_086-PAX23-01-EXTERIOR.png",
+        "U081_086_PAX23/ABL-U081_086-PAX23-02-INTERIOR.jpg",
+        "U081_086_PAX23/ABL-U081_086-PAX23-03-INTERIOR.jpg"
+      ]
+    },
+    {
+      "gallery_id": "vehicle-82",
+      "vehicle_numbers": [
+        82
+      ],
+      "pax_max_capacity": 28,
+      "folder": "V082_PAX28",
+      "identification_status": "CONFIRMED_NUMBER",
+      "cover_image": "V082_PAX28/ABL-V082-PAX28-01-FRONT.jpg",
+      "website_cover_approved": true,
+      "gallery_image_paths": [
+        "V082_PAX28/ABL-V082-PAX28-01-FRONT.jpg",
+        "V082_PAX28/ABL-V082-PAX28-02-SIDE.jpg",
+        "V082_PAX28/ABL-V082-PAX28-03-INTERIOR.jpg",
+        "V082_PAX28/ABL-V082-PAX28-04-INTERIOR.jpg",
+        "V082_PAX28/ABL-V082-PAX28-05-INTERIOR.jpg"
+      ]
+    },
+    {
+      "gallery_id": "vehicle-83",
+      "vehicle_numbers": [
+        83
+      ],
+      "pax_max_capacity": 39,
+      "folder": "V083_PAX39",
+      "identification_status": "CONFIRMED_NUMBER",
+      "cover_image": "V083_PAX39/ABL-V083-PAX39-01-EXTERIOR.jpeg",
+      "website_cover_approved": true,
+      "gallery_image_paths": [
+        "V083_PAX39/ABL-V083-PAX39-01-EXTERIOR.jpeg",
+        "V083_PAX39/ABL-V083-PAX39-02-EXTERIOR.jpeg"
+      ]
+    },
+    {
+      "gallery_id": "unresolved-83-84-39pax",
+      "vehicle_numbers": [
+        83,
+        84
+      ],
+      "pax_max_capacity": 39,
+      "folder": "U083_084_PAX39",
+      "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
+      "cover_image": "U083_084_PAX39/ABL-U083_084-PAX39-01-EXTERIOR.jpeg",
+      "website_cover_approved": false,
+      "gallery_image_paths": [
+        "U083_084_PAX39/ABL-U083_084-PAX39-01-EXTERIOR.jpeg",
+        "U083_084_PAX39/ABL-U083_084-PAX39-02-INTERIOR.jpeg",
+        "U083_084_PAX39/ABL-U083_084-PAX39-03-INTERIOR.jpeg",
+        "U083_084_PAX39/ABL-U083_084-PAX39-04-INTERIOR.jpeg"
+      ]
+    },
+    {
+      "gallery_id": "vehicle-85",
+      "vehicle_numbers": [
+        85
+      ],
+      "pax_max_capacity": 56,
+      "folder": "V085_PAX56",
+      "identification_status": "CONFIRMED_NUMBER",
+      "cover_image": "V085_PAX56/ABL-V085-PAX56-01-EXTERIOR.jpg",
+      "website_cover_approved": true,
+      "gallery_image_paths": [
+        "V085_PAX56/ABL-V085-PAX56-01-EXTERIOR.jpg",
+        "V085_PAX56/ABL-V085-PAX56-02-EXTERIOR.jpg",
+        "V085_PAX56/ABL-V085-PAX56-03-EXTERIOR.jpeg",
+        "V085_PAX56/ABL-V085-PAX56-04-INTERIOR.jpeg",
+        "V085_PAX56/ABL-V085-PAX56-05-INTERIOR.jpg",
+        "V085_PAX56/ABL-V085-PAX56-06-AMENITY.jpeg"
+      ]
+    },
+    {
+      "gallery_id": "vehicle-86",
+      "vehicle_numbers": [
+        86
+      ],
+      "pax_max_capacity": 23,
+      "folder": "V086_PAX23",
+      "identification_status": "CONFIRMED_NUMBER",
+      "cover_image": null,
+      "website_cover_approved": false,
+      "gallery_image_paths": [
+        "V086_PAX23/ABL-V086-PAX23-01-INTERIOR.jpeg",
+        "V086_PAX23/ABL-V086-PAX23-02-INTERIOR.jpeg",
+        "V086_PAX23/ABL-V086-PAX23-03-INTERIOR.jpeg"
+      ]
+    }
+  ]
+}
