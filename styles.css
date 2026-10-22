@@ -246,3 +246,7 @@ footer a,footer small{font-size:clamp(13px,.86vw,16px)!important;line-height:1.6
 .fleet-photo-card:has(.sprinter-options) .fleet-cover{aspect-ratio:4/3;background:#fff}
 .fleet-photo-card:has(.sprinter-options) .fleet-cover img{width:100%;height:100%;object-fit:contain;background:#fff}
 .fleet-photo-card:has(.sprinter-options) .fleet-capacity{min-height:3em}
+
+/* Services section title follows the page heading typography. */
+.services-heading{text-align:center;margin:16px 0 32px}
+.services-heading h2{margin:0}
