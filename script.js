@@ -33,6 +33,14 @@ const vehicleAmenities = {
   "56-Passenger Motor Coach": "A full-size coach cabin accommodates larger groups in one shared passenger space. Complimentary Wi-Fi adds convenience during regional transfers and longer journeys.",
 };
 let galleries = [];
+const sprinterGalleryIds = new Set([
+  "mercedes-sprinter-13",
+  "unresolved-69-78-14pax",
+  "vehicle-72",
+  "vehicle-76",
+]);
+let selectedSprinterId = "mercedes-sprinter-13";
+let fleetFilter = "all";
 function fleetType(g) {
   const n = galleryNames[g.gallery_id] || "";
   return /Coach/i.test(n)
@@ -51,9 +59,19 @@ function fleetPlaceholder() {
 }
 function renderFleet(filter = "all") {
   if (!fleetRoot) return;
+  fleetFilter = filter;
+  const sprinters = galleries
+    .filter((g) => sprinterGalleryIds.has(g.gallery_id))
+    .sort((a, b) => a.pax_max_capacity - b.pax_max_capacity);
   fleetRoot.innerHTML = galleries
+    .filter((g) => !sprinterGalleryIds.has(g.gallery_id) || g.gallery_id === "mercedes-sprinter-13")
     .filter((g) => filter === "all" || fleetType(g) === filter)
     .map((g) => {
+      const isSprinter = sprinterGalleryIds.has(g.gallery_id);
+      if (isSprinter) g = sprinters.find((x) => x.gallery_id === selectedSprinterId) || g;
+      const selector = isSprinter
+        ? `<div class="sprinter-options"><span class="sprinter-options-label" id="sprinter-passengers-label">Passenger capacity</span><div class="sprinter-passenger-buttons" role="group" aria-labelledby="sprinter-passengers-label">${sprinters.map((variant) => `<button type="button" data-sprinter-passengers="${variant.gallery_id}" aria-pressed="${variant.gallery_id === g.gallery_id}">${variant.pax_max_capacity} Passengers</button>`).join("")}</div></div>`
+        : "";
       const approved = Boolean(g.website_cover_approved && g.cover_image);
       const previewImage = approved ? g.cover_image : g.gallery_image_paths[0];
       const label = galleryNames[g.gallery_id] || "Luxury vehicle";
@@ -64,7 +82,7 @@ function renderFleet(filter = "all") {
         : fleetPlaceholder();
       return `<article class="vehicle fleet-photo-card"><button type="button" class="fleet-card-open" data-gallery-id="${
         g.gallery_id
-      }" ${g.gallery_image_paths.length ? "" : "disabled"} aria-label="${g.gallery_image_paths.length ? "View photos of" : "Photo coming soon for"} ${label}"><div class="vehicle-art fleet-cover">${picture}</div><div class="vehicle-meta"><h3>${label}</h3><p>${g.pax_max_capacity ? `Up to ${g.pax_max_capacity} passengers` : "Contact us for passenger capacity"}${g.gallery_image_paths.length ? ` · ${g.gallery_image_paths.length} photo${g.gallery_image_paths.length === 1 ? "" : "s"}` : ""}</p><p class="vehicle-amenities">${vehicleAmenities[label] || ""}</p>${g.gallery_image_paths.length ? '<span class="fleet-view-gallery">VIEW PHOTOS &nbsp; ↗</span>' : ""}</div></button></article>`;
+      }" ${g.gallery_image_paths.length ? "" : "disabled"} aria-label="${g.gallery_image_paths.length ? "View photos of" : "Photo coming soon for"} ${label}"><div class="vehicle-art fleet-cover">${picture}</div><div class="vehicle-meta"><h3>${label}</h3><p class="fleet-capacity">${g.pax_max_capacity ? `${g.pax_max_capacity} Passengers` : "Contact us for passenger capacity"}${g.gallery_image_paths.length ? ` · ${g.gallery_image_paths.length} photo${g.gallery_image_paths.length === 1 ? "" : "s"}` : ""}</p><p class="vehicle-amenities">${vehicleAmenities[label] || ""}</p>${g.gallery_image_paths.length ? '<span class="fleet-view-gallery">VIEW PHOTOS &nbsp; ↗</span>' : ""}</div></button>${selector}</article>`;
     })
     .join("");
 }
@@ -128,6 +146,24 @@ if (fleetRoot) {
         "<p>Fleet images could not load. Please contact our team for vehicle details.</p>";
     });
   fleetRoot.addEventListener("click", (e) => {
+    const capacityButton = e.target.closest("[data-sprinter-passengers]");
+    if (capacityButton) {
+      const variant = galleries.find((g) => g.gallery_id === capacityButton.dataset.sprinterPassengers);
+      if (!variant) return;
+      selectedSprinterId = variant.gallery_id;
+      const card = capacityButton.closest(".fleet-photo-card");
+      const galleryButton = card.querySelector("[data-gallery-id]");
+      galleryButton.dataset.galleryId = variant.gallery_id;
+      const approved = Boolean(variant.website_cover_approved && variant.cover_image);
+      const image = card.querySelector(".fleet-cover img");
+      image.src = fleetPath(approved ? variant.cover_image : variant.gallery_image_paths[0]);
+      image.alt = `Mercedes Sprinter${approved ? " exterior" : " gallery photo"}, ${variant.pax_max_capacity} passenger capacity`;
+      card.querySelector(".fleet-capacity").textContent = `${variant.pax_max_capacity} Passengers · ${variant.gallery_image_paths.length} photo${variant.gallery_image_paths.length === 1 ? "" : "s"}`;
+      card.querySelectorAll("[data-sprinter-passengers]").forEach((button) => {
+        button.setAttribute("aria-pressed", String(button === capacityButton));
+      });
+      return;
+    }
     const b = e.target.closest("[data-gallery-id]");
     if (b) openFleetGallery(b.dataset.galleryId);
   });

@@ -165,10 +165,10 @@
         "v075_pax13/abl-v075-pax13-01-front-white-edited.png",
         "v075_pax13/abl-v075-pax13-02-side-white-edited.png",
         "v075_pax13/abl-v075-pax13-03-side-white-edited.png",
-        "v075_pax13/abl-v075-pax13-04-interior.jpg",
-        "v075_pax13/abl-v075-pax13-05-interior.jpeg",
-        "v077_pax13/abl-v077-pax13-01-interior.jpeg",
-        "v077_pax13/abl-v077-pax13-02-interior.jpeg"
+        "v075_pax13/abl-v075-pax13-04-interior-white-edited.png",
+        "v075_pax13/abl-v075-pax13-05-interior-white-edited.png",
+        "v077_pax13/abl-v077-pax13-01-interior-white-edited.png",
+        "v077_pax13/abl-v077-pax13-02-interior-white-edited.png"
       ]
     },
     {
@@ -184,7 +184,7 @@
       "website_cover_approved": false,
       "gallery_image_paths": [
         "u069_078_pax14/abl-u069_078-pax14-01-front-white-edited.png",
-        "u069_078_pax14/abl-u069_078-pax14-02-interior.jpeg"
+        "u069_078_pax14/abl-u069_078-pax14-02-interior-white-edited.png"
       ]
     },
     {
@@ -195,10 +195,11 @@
       "pax_max_capacity": 9,
       "folder": "v072_pax09",
       "identification_status": "CONFIRMED_NUMBER",
-      "cover_image": null,
-      "website_cover_approved": false,
+      "cover_image": "v072_pax09/abl-v072-pax09-00-front-white-edited.png",
+      "website_cover_approved": true,
       "gallery_image_paths": [
-        "v072_pax09/abl-v072-pax09-01-interior.jpeg"
+        "v072_pax09/abl-v072-pax09-00-front-white-edited.png",
+        "v072_pax09/abl-v072-pax09-01-interior-white-edited.png"
       ]
     },
     {
@@ -213,8 +214,8 @@
       "website_cover_approved": true,
       "gallery_image_paths": [
         "v076_pax10/abl-v076-pax10-01-exterior-white-edited.png",
-        "v076_pax10/abl-v076-pax10-02-interior.jpg",
-        "v076_pax10/abl-v076-pax10-03-luggage.jpg"
+        "v076_pax10/abl-v076-pax10-02-interior-white-edited.png",
+        "v076_pax10/abl-v076-pax10-03-luggage-white-edited.png"
       ]
     },
     {
@@ -230,11 +231,11 @@
       "website_cover_approved": false,
       "gallery_image_paths": [
         "u081_086_pax23/abl-u081_086-pax23-01-exterior-white-edited.png",
-        "u081_086_pax23/abl-u081_086-pax23-02-interior.jpg",
-        "u081_086_pax23/abl-u081_086-pax23-03-interior.jpg",
-        "v086_pax23/abl-v086-pax23-01-interior.jpeg",
-        "v086_pax23/abl-v086-pax23-02-interior.jpeg",
-        "v086_pax23/abl-v086-pax23-03-interior.jpeg"
+        "u081_086_pax23/abl-u081_086-pax23-02-interior-white-edited.png",
+        "u081_086_pax23/abl-u081_086-pax23-03-interior-white-edited.png",
+        "v086_pax23/abl-v086-pax23-01-interior-white-edited.png",
+        "v086_pax23/abl-v086-pax23-02-interior-white-edited.png",
+        "v086_pax23/abl-v086-pax23-03-interior-white-edited.png"
       ]
     },
     {
@@ -250,9 +251,9 @@
       "gallery_image_paths": [
         "v082_pax28/abl-v082-pax28-01-front-white-edited.png",
         "v082_pax28/abl-v082-pax28-02-side-white-edited.png",
-        "v082_pax28/abl-v082-pax28-03-interior.jpg",
-        "v082_pax28/abl-v082-pax28-04-interior.jpg",
-        "v082_pax28/abl-v082-pax28-05-interior.jpg"
+        "v082_pax28/abl-v082-pax28-03-interior-white-edited.png",
+        "v082_pax28/abl-v082-pax28-04-interior-white-edited.png",
+        "v082_pax28/abl-v082-pax28-05-interior-white-edited.png"
       ]
     },
     {
@@ -270,9 +271,9 @@
         "v083_pax39/abl-v083-pax39-01-exterior-white-edited.png",
         "v083_pax39/abl-v083-pax39-02-exterior-white-edited.png",
         "u083_084_pax39/abl-u083_084-pax39-01-exterior-white-edited.png",
-        "u083_084_pax39/abl-u083_084-pax39-02-interior.jpeg",
-        "u083_084_pax39/abl-u083_084-pax39-03-interior.jpeg",
-        "u083_084_pax39/abl-u083_084-pax39-04-interior.jpeg"
+        "u083_084_pax39/abl-u083_084-pax39-02-interior-white-edited.png",
+        "u083_084_pax39/abl-u083_084-pax39-03-interior-white-edited.png",
+        "u083_084_pax39/abl-u083_084-pax39-04-interior-white-edited.png"
       ]
     },
     {
@@ -289,9 +290,9 @@
         "v085_pax56/abl-v085-pax56-01-exterior-white-edited.png",
         "v085_pax56/abl-v085-pax56-02-exterior-white-edited.png",
         "v085_pax56/abl-v085-pax56-03-exterior-white-edited.png",
-        "v085_pax56/abl-v085-pax56-04-interior.jpeg",
-        "v085_pax56/abl-v085-pax56-05-interior.jpg",
-        "v085_pax56/abl-v085-pax56-06-amenity.jpeg"
+        "v085_pax56/abl-v085-pax56-04-interior-white-edited.png",
+        "v085_pax56/abl-v085-pax56-05-interior-white-edited.png",
+        "v085_pax56/abl-v085-pax56-06-amenity-white-edited.png"
       ]
     }
   ]
