@@ -1,0 +1,10 @@
+{
+  "liveServer.settings.root": "/",
+  "liveServer.settings.host": "127.0.0.1",
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.useWebExt": false,
+  "liveServer.settings.fullReload": false,
+  "liveServer.settings.ignoreFiles": ["**/.git/**", "**/.vscode/**", "**/node_modules/**"],
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 700
+}

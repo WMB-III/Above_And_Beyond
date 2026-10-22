@@ -7,15 +7,30 @@
         40
       ],
       "pax_max_capacity": 2,
-      "folder": "V040_PAX02",
+      "folder": "v040_pax02",
       "identification_status": "CONFIRMED_NUMBER",
-      "cover_image": "V040_PAX02/ABL-V040-PAX02-01-EXTERIOR.jpg",
+      "cover_image": "v040_pax02/mercedes-cls-01-exterior-white-preview.png",
       "website_cover_approved": true,
       "gallery_image_paths": [
-        "V040_PAX02/ABL-V040-PAX02-01-EXTERIOR.jpg",
-        "V040_PAX02/ABL-V040-PAX02-02-EXTERIOR.jpg",
-        "V040_PAX02/ABL-V040-PAX02-03-INTERIOR.jpg"
-      ]
+        "v040_pax02/mercedes-cls-01-exterior-white-preview.png",
+        "v040_pax02/abl-v040-pax02-02-exterior-white-edited.png",
+        "v040_pax02/abl-v040-pax02-03-interior-white-edited.png"
+      ],
+      "image_edit_note": "AI-assisted background extraction and lighting retouch; original photos retained on disk."
+    },
+    {
+      "gallery_id": "volvo-s90",
+      "vehicle_numbers": [],
+      "pax_max_capacity": null,
+      "folder": "volvo_s90",
+      "identification_status": "MODEL_ONLY",
+      "cover_image": "volvo_s90/volvo-s90-02-side-edited-white-edited.png",
+      "website_cover_approved": true,
+      "gallery_image_paths": [
+        "volvo_s90/volvo-s90-02-side-edited-white-edited.png",
+        "volvo_s90/volvo-s90-01-front-edited-white-edited.png"
+      ],
+      "image_edit_note": "AI-assisted background removal and lighting retouch from owner-supplied IMG_2618.jpeg and IMG_2617.jpeg."
     },
     {
       "gallery_id": "unresolved-46-47-2pax",
@@ -24,14 +39,14 @@
         47
       ],
       "pax_max_capacity": 2,
-      "folder": "U046_047_PAX02",
+      "folder": "u046_047_pax02",
       "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
-      "cover_image": "U046_047_PAX02/ABL-U046_047-PAX02-01-EXTERIOR.jpg",
+      "cover_image": "u046_047_pax02/abl-u046_047-pax02-01-exterior-white-edited.png",
       "website_cover_approved": false,
       "gallery_image_paths": [
-        "U046_047_PAX02/ABL-U046_047-PAX02-01-EXTERIOR.jpg",
-        "U046_047_PAX02/ABL-U046_047-PAX02-02-EXTERIOR.jpeg",
-        "U046_047_PAX02/ABL-U046_047-PAX02-03-INTERIOR.jpg"
+        "u046_047_pax02/abl-u046_047-pax02-01-exterior-white-edited.png",
+        "u046_047_pax02/abl-u046_047-pax02-02-exterior-white-edited.png",
+        "u046_047_pax02/abl-u046_047-pax02-03-interior-white-edited.png"
       ]
     },
     {
@@ -46,13 +61,17 @@
         67
       ],
       "pax_max_capacity": 4,
-      "folder": "U051_055_060_061_062_063_067_PAX04",
+      "folder": "u051_055_060_061_062_063_067_pax04",
       "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
-      "cover_image": null,
-      "website_cover_approved": false,
+      "cover_image": "suburban/suburban-2621-white-edited.png",
+      "website_cover_approved": true,
       "gallery_image_paths": [
-        "U051_055_060_061_062_063_067_PAX04/ABL-U051_055_060_061_062_063_067-PAX04-01-INTERIOR.jpeg"
-      ]
+        "suburban/suburban-2621-white-edited.png",
+        "suburban/suburban-2622-white-edited.png",
+        "suburban/suburban-2620-white-edited.png",
+        "u051_055_060_061_062_063_067_pax04/abl-u051_055_060_061_062_063_067-pax04-01-interior-white-edited.png"
+      ],
+      "image_edit_note": "Owner-supplied Suburban photos: AI-assisted glare removal, lighting cleanup and white backgrounds."
     },
     {
       "gallery_id": "unresolved-52-54-2pax",
@@ -61,43 +80,30 @@
         54
       ],
       "pax_max_capacity": 2,
-      "folder": "U052_054_PAX02",
+      "folder": "u052_054_pax02",
       "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
-      "cover_image": "U052_054_PAX02/ABL-U052_054-PAX02-01-EXTERIOR.jpg",
+      "cover_image": "u052_054_pax02/abl-u052_054-pax02-01-exterior-white-edited.png",
       "website_cover_approved": false,
       "gallery_image_paths": [
-        "U052_054_PAX02/ABL-U052_054-PAX02-01-EXTERIOR.jpg",
-        "U052_054_PAX02/ABL-U052_054-PAX02-02-INTERIOR.jpg",
-        "U052_054_PAX02/ABL-U052_054-PAX02-03-INTERIOR.jpg"
+        "u052_054_pax02/abl-u052_054-pax02-01-exterior-white-edited.png",
+        "u052_054_pax02/abl-u052_054-pax02-02-interior-white-edited.png",
+        "u052_054_pax02/abl-u052_054-pax02-03-interior-white-edited.png"
       ]
     },
     {
-      "gallery_id": "unresolved-58-65-5pax",
+      "gallery_id": "cadillac-escalade",
       "vehicle_numbers": [
         58,
         65
       ],
       "pax_max_capacity": 5,
-      "folder": "U058_065_PAX05",
+      "folder": "u058_065_pax05",
       "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
-      "cover_image": "U058_065_PAX05/ABL-U058_065-PAX05-01-EXTERIOR.jpg",
-      "website_cover_approved": false,
-      "gallery_image_paths": [
-        "U058_065_PAX05/ABL-U058_065-PAX05-01-EXTERIOR.jpg"
-      ]
-    },
-    {
-      "gallery_id": "vehicle-65",
-      "vehicle_numbers": [
-        65
-      ],
-      "pax_max_capacity": 5,
-      "folder": "V065_PAX05",
-      "identification_status": "CONFIRMED_NUMBER",
-      "cover_image": "V065_PAX05/ABL-V065-PAX05-01-EXTERIOR.jpg",
+      "cover_image": "v065_pax05/abl-v065-pax05-01-exterior-white-edited.png",
       "website_cover_approved": true,
       "gallery_image_paths": [
-        "V065_PAX05/ABL-V065-PAX05-01-EXTERIOR.jpg"
+        "u058_065_pax05/abl-u058_065-pax05-01-exterior-white-edited.png",
+        "v065_pax05/abl-v065-pax05-01-exterior-white-edited.png"
       ]
     },
     {
@@ -106,15 +112,15 @@
         66
       ],
       "pax_max_capacity": 5,
-      "folder": "V066_PAX05",
+      "folder": "v066_pax05",
       "identification_status": "CONFIRMED_NUMBER",
-      "cover_image": "V066_PAX05/ABL-V066-PAX05-01-EXTERIOR.jpg",
+      "cover_image": "v066_pax05/abl-v066-pax05-01-exterior-white-edited.png",
       "website_cover_approved": true,
       "gallery_image_paths": [
-        "V066_PAX05/ABL-V066-PAX05-01-EXTERIOR.jpg",
-        "V066_PAX05/ABL-V066-PAX05-02-SIDE.jpg",
-        "V066_PAX05/ABL-V066-PAX05-03-INTERIOR.jpg",
-        "V066_PAX05/ABL-V066-PAX05-04-LUGGAGE.jpg"
+        "v066_pax05/abl-v066-pax05-01-exterior-white-edited.png",
+        "v066_pax05/abl-v066-pax05-02-side-white-edited.png",
+        "v066_pax05/abl-v066-pax05-03-interior-white-edited.png",
+        "v066_pax05/abl-v066-pax05-04-luggage-white-edited.png"
       ]
     },
     {
@@ -123,19 +129,19 @@
         68
       ],
       "pax_max_capacity": 13,
-      "folder": "V068_PAX13",
+      "folder": "v068_pax13",
       "identification_status": "CONFIRMED_NUMBER",
-      "cover_image": "V068_PAX13/ABL-V068-PAX13-01-EXTERIOR.jpg",
+      "cover_image": "v068_pax13/abl-v068-pax13-01-exterior-white-edited.png",
       "website_cover_approved": true,
       "gallery_image_paths": [
-        "V068_PAX13/ABL-V068-PAX13-01-EXTERIOR.jpg",
-        "V068_PAX13/ABL-V068-PAX13-02-EXTERIOR.jpg",
-        "V068_PAX13/ABL-V068-PAX13-03-INTERIOR.jpg",
-        "V068_PAX13/ABL-V068-PAX13-04-LUGGAGE.jpg"
+        "v068_pax13/abl-v068-pax13-01-exterior-white-edited.png",
+        "v068_pax13/abl-v068-pax13-02-exterior-white-edited.png",
+        "v068_pax13/abl-v068-pax13-03-interior-white-edited.png",
+        "v068_pax13/abl-v068-pax13-04-luggage-white-edited.png"
       ]
     },
     {
-      "gallery_id": "unresolved-68-71-74-75-77-79-13pax",
+      "gallery_id": "mercedes-sprinter-13",
       "vehicle_numbers": [
         68,
         71,
@@ -145,15 +151,24 @@
         79
       ],
       "pax_max_capacity": 13,
-      "folder": "U068_071_074_075_077_079_PAX13",
+      "folder": "u068_071_074_075_077_079_pax13",
       "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
-      "cover_image": "U068_071_074_075_077_079_PAX13/ABL-U068_071_074_075_077_079-PAX13-01-FRONT.jpg",
-      "website_cover_approved": false,
+      "cover_image": "v075_pax13/abl-v075-pax13-01-front-white-edited.png",
+      "website_cover_approved": true,
       "gallery_image_paths": [
-        "U068_071_074_075_077_079_PAX13/ABL-U068_071_074_075_077_079-PAX13-01-FRONT.jpg",
-        "U068_071_074_075_077_079_PAX13/ABL-U068_071_074_075_077_079-PAX13-02-SIDE.jpg",
-        "U068_071_074_075_077_079_PAX13/ABL-U068_071_074_075_077_079-PAX13-03-SIDE.jpg",
-        "U068_071_074_075_077_079_PAX13/ABL-U068_071_074_075_077_079-PAX13-04-LUGGAGE.jpeg"
+        "u068_071_074_075_077_079_pax13/abl-u068_071_074_075_077_079-pax13-01-front-white-edited.png",
+        "u068_071_074_075_077_079_pax13/abl-u068_071_074_075_077_079-pax13-02-side-white-edited.png",
+        "u068_071_074_075_077_079_pax13/abl-u068_071_074_075_077_079-pax13-03-side-white-edited.png",
+        "u068_071_074_075_077_079_pax13/abl-u068_071_074_075_077_079-pax13-04-luggage-white-edited.png",
+        "u071_075_pax13/abl-u071_075-pax13-01-interior-white-edited.png",
+        "u071_075_pax13/abl-u071_075-pax13-02-luggage-white-edited.png",
+        "v075_pax13/abl-v075-pax13-01-front-white-edited.png",
+        "v075_pax13/abl-v075-pax13-02-side-white-edited.png",
+        "v075_pax13/abl-v075-pax13-03-side-white-edited.png",
+        "v075_pax13/abl-v075-pax13-04-interior.jpg",
+        "v075_pax13/abl-v075-pax13-05-interior.jpeg",
+        "v077_pax13/abl-v077-pax13-01-interior.jpeg",
+        "v077_pax13/abl-v077-pax13-02-interior.jpeg"
       ]
     },
     {
@@ -163,29 +178,13 @@
         78
       ],
       "pax_max_capacity": 14,
-      "folder": "U069_078_PAX14",
+      "folder": "u069_078_pax14",
       "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
-      "cover_image": "U069_078_PAX14/ABL-U069_078-PAX14-01-FRONT.jpeg",
+      "cover_image": "u069_078_pax14/abl-u069_078-pax14-01-front-white-edited.png",
       "website_cover_approved": false,
       "gallery_image_paths": [
-        "U069_078_PAX14/ABL-U069_078-PAX14-01-FRONT.jpeg",
-        "U069_078_PAX14/ABL-U069_078-PAX14-02-INTERIOR.jpeg"
-      ]
-    },
-    {
-      "gallery_id": "unresolved-71-75-13pax",
-      "vehicle_numbers": [
-        71,
-        75
-      ],
-      "pax_max_capacity": 13,
-      "folder": "U071_075_PAX13",
-      "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
-      "cover_image": null,
-      "website_cover_approved": false,
-      "gallery_image_paths": [
-        "U071_075_PAX13/ABL-U071_075-PAX13-01-INTERIOR.jpg",
-        "U071_075_PAX13/ABL-U071_075-PAX13-02-LUGGAGE.jpg"
+        "u069_078_pax14/abl-u069_078-pax14-01-front-white-edited.png",
+        "u069_078_pax14/abl-u069_078-pax14-02-interior.jpeg"
       ]
     },
     {
@@ -194,30 +193,12 @@
         72
       ],
       "pax_max_capacity": 9,
-      "folder": "V072_PAX09",
+      "folder": "v072_pax09",
       "identification_status": "CONFIRMED_NUMBER",
       "cover_image": null,
       "website_cover_approved": false,
       "gallery_image_paths": [
-        "V072_PAX09/ABL-V072-PAX09-01-INTERIOR.jpeg"
-      ]
-    },
-    {
-      "gallery_id": "vehicle-75",
-      "vehicle_numbers": [
-        75
-      ],
-      "pax_max_capacity": 13,
-      "folder": "V075_PAX13",
-      "identification_status": "CONFIRMED_NUMBER",
-      "cover_image": "V075_PAX13/ABL-V075-PAX13-01-FRONT.jpeg",
-      "website_cover_approved": true,
-      "gallery_image_paths": [
-        "V075_PAX13/ABL-V075-PAX13-01-FRONT.jpeg",
-        "V075_PAX13/ABL-V075-PAX13-02-SIDE.jpeg",
-        "V075_PAX13/ABL-V075-PAX13-03-SIDE.jpg",
-        "V075_PAX13/ABL-V075-PAX13-04-INTERIOR.jpg",
-        "V075_PAX13/ABL-V075-PAX13-05-INTERIOR.jpeg"
+        "v072_pax09/abl-v072-pax09-01-interior.jpeg"
       ]
     },
     {
@@ -226,46 +207,34 @@
         76
       ],
       "pax_max_capacity": 10,
-      "folder": "V076_PAX10",
+      "folder": "v076_pax10",
       "identification_status": "CONFIRMED_NUMBER",
-      "cover_image": "V076_PAX10/ABL-V076-PAX10-01-EXTERIOR.jpg",
+      "cover_image": "v076_pax10/abl-v076-pax10-01-exterior-white-edited.png",
       "website_cover_approved": true,
       "gallery_image_paths": [
-        "V076_PAX10/ABL-V076-PAX10-01-EXTERIOR.jpg",
-        "V076_PAX10/ABL-V076-PAX10-02-INTERIOR.jpg",
-        "V076_PAX10/ABL-V076-PAX10-03-LUGGAGE.jpg"
+        "v076_pax10/abl-v076-pax10-01-exterior-white-edited.png",
+        "v076_pax10/abl-v076-pax10-02-interior.jpg",
+        "v076_pax10/abl-v076-pax10-03-luggage.jpg"
       ]
     },
     {
-      "gallery_id": "vehicle-77",
-      "vehicle_numbers": [
-        77
-      ],
-      "pax_max_capacity": 13,
-      "folder": "V077_PAX13",
-      "identification_status": "CONFIRMED_NUMBER",
-      "cover_image": null,
-      "website_cover_approved": false,
-      "gallery_image_paths": [
-        "V077_PAX13/ABL-V077-PAX13-01-INTERIOR.jpeg",
-        "V077_PAX13/ABL-V077-PAX13-02-INTERIOR.jpeg"
-      ]
-    },
-    {
-      "gallery_id": "unresolved-81-86-23pax",
+      "gallery_id": "mini-coach-23",
       "vehicle_numbers": [
         81,
         86
       ],
       "pax_max_capacity": 23,
-      "folder": "U081_086_PAX23",
+      "folder": "u081_086_pax23",
       "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
-      "cover_image": "U081_086_PAX23/ABL-U081_086-PAX23-01-EXTERIOR.png",
+      "cover_image": "u081_086_pax23/abl-u081_086-pax23-01-exterior-white-edited.png",
       "website_cover_approved": false,
       "gallery_image_paths": [
-        "U081_086_PAX23/ABL-U081_086-PAX23-01-EXTERIOR.png",
-        "U081_086_PAX23/ABL-U081_086-PAX23-02-INTERIOR.jpg",
-        "U081_086_PAX23/ABL-U081_086-PAX23-03-INTERIOR.jpg"
+        "u081_086_pax23/abl-u081_086-pax23-01-exterior-white-edited.png",
+        "u081_086_pax23/abl-u081_086-pax23-02-interior.jpg",
+        "u081_086_pax23/abl-u081_086-pax23-03-interior.jpg",
+        "v086_pax23/abl-v086-pax23-01-interior.jpeg",
+        "v086_pax23/abl-v086-pax23-02-interior.jpeg",
+        "v086_pax23/abl-v086-pax23-03-interior.jpeg"
       ]
     },
     {
@@ -274,49 +243,36 @@
         82
       ],
       "pax_max_capacity": 28,
-      "folder": "V082_PAX28",
+      "folder": "v082_pax28",
       "identification_status": "CONFIRMED_NUMBER",
-      "cover_image": "V082_PAX28/ABL-V082-PAX28-01-FRONT.jpg",
+      "cover_image": "v082_pax28/abl-v082-pax28-01-front-white-edited.png",
       "website_cover_approved": true,
       "gallery_image_paths": [
-        "V082_PAX28/ABL-V082-PAX28-01-FRONT.jpg",
-        "V082_PAX28/ABL-V082-PAX28-02-SIDE.jpg",
-        "V082_PAX28/ABL-V082-PAX28-03-INTERIOR.jpg",
-        "V082_PAX28/ABL-V082-PAX28-04-INTERIOR.jpg",
-        "V082_PAX28/ABL-V082-PAX28-05-INTERIOR.jpg"
+        "v082_pax28/abl-v082-pax28-01-front-white-edited.png",
+        "v082_pax28/abl-v082-pax28-02-side-white-edited.png",
+        "v082_pax28/abl-v082-pax28-03-interior.jpg",
+        "v082_pax28/abl-v082-pax28-04-interior.jpg",
+        "v082_pax28/abl-v082-pax28-05-interior.jpg"
       ]
     },
     {
-      "gallery_id": "vehicle-83",
-      "vehicle_numbers": [
-        83
-      ],
-      "pax_max_capacity": 39,
-      "folder": "V083_PAX39",
-      "identification_status": "CONFIRMED_NUMBER",
-      "cover_image": "V083_PAX39/ABL-V083-PAX39-01-EXTERIOR.jpeg",
-      "website_cover_approved": true,
-      "gallery_image_paths": [
-        "V083_PAX39/ABL-V083-PAX39-01-EXTERIOR.jpeg",
-        "V083_PAX39/ABL-V083-PAX39-02-EXTERIOR.jpeg"
-      ]
-    },
-    {
-      "gallery_id": "unresolved-83-84-39pax",
+      "gallery_id": "mini-coach-39",
       "vehicle_numbers": [
         83,
         84
       ],
       "pax_max_capacity": 39,
-      "folder": "U083_084_PAX39",
+      "folder": "u083_084_pax39",
       "identification_status": "UNCONFIRMED_MULTIPLE_CANDIDATES",
-      "cover_image": "U083_084_PAX39/ABL-U083_084-PAX39-01-EXTERIOR.jpeg",
-      "website_cover_approved": false,
+      "cover_image": "v083_pax39/abl-v083-pax39-01-exterior-white-edited.png",
+      "website_cover_approved": true,
       "gallery_image_paths": [
-        "U083_084_PAX39/ABL-U083_084-PAX39-01-EXTERIOR.jpeg",
-        "U083_084_PAX39/ABL-U083_084-PAX39-02-INTERIOR.jpeg",
-        "U083_084_PAX39/ABL-U083_084-PAX39-03-INTERIOR.jpeg",
-        "U083_084_PAX39/ABL-U083_084-PAX39-04-INTERIOR.jpeg"
+        "v083_pax39/abl-v083-pax39-01-exterior-white-edited.png",
+        "v083_pax39/abl-v083-pax39-02-exterior-white-edited.png",
+        "u083_084_pax39/abl-u083_084-pax39-01-exterior-white-edited.png",
+        "u083_084_pax39/abl-u083_084-pax39-02-interior.jpeg",
+        "u083_084_pax39/abl-u083_084-pax39-03-interior.jpeg",
+        "u083_084_pax39/abl-u083_084-pax39-04-interior.jpeg"
       ]
     },
     {
@@ -325,33 +281,17 @@
         85
       ],
       "pax_max_capacity": 56,
-      "folder": "V085_PAX56",
+      "folder": "v085_pax56",
       "identification_status": "CONFIRMED_NUMBER",
-      "cover_image": "V085_PAX56/ABL-V085-PAX56-01-EXTERIOR.jpg",
+      "cover_image": "v085_pax56/abl-v085-pax56-01-exterior-white-edited.png",
       "website_cover_approved": true,
       "gallery_image_paths": [
-        "V085_PAX56/ABL-V085-PAX56-01-EXTERIOR.jpg",
-        "V085_PAX56/ABL-V085-PAX56-02-EXTERIOR.jpg",
-        "V085_PAX56/ABL-V085-PAX56-03-EXTERIOR.jpeg",
-        "V085_PAX56/ABL-V085-PAX56-04-INTERIOR.jpeg",
-        "V085_PAX56/ABL-V085-PAX56-05-INTERIOR.jpg",
-        "V085_PAX56/ABL-V085-PAX56-06-AMENITY.jpeg"
-      ]
-    },
-    {
-      "gallery_id": "vehicle-86",
-      "vehicle_numbers": [
-        86
-      ],
-      "pax_max_capacity": 23,
-      "folder": "V086_PAX23",
-      "identification_status": "CONFIRMED_NUMBER",
-      "cover_image": null,
-      "website_cover_approved": false,
-      "gallery_image_paths": [
-        "V086_PAX23/ABL-V086-PAX23-01-INTERIOR.jpeg",
-        "V086_PAX23/ABL-V086-PAX23-02-INTERIOR.jpeg",
-        "V086_PAX23/ABL-V086-PAX23-03-INTERIOR.jpeg"
+        "v085_pax56/abl-v085-pax56-01-exterior-white-edited.png",
+        "v085_pax56/abl-v085-pax56-02-exterior-white-edited.png",
+        "v085_pax56/abl-v085-pax56-03-exterior-white-edited.png",
+        "v085_pax56/abl-v085-pax56-04-interior.jpeg",
+        "v085_pax56/abl-v085-pax56-05-interior.jpg",
+        "v085_pax56/abl-v085-pax56-06-amenity.jpeg"
       ]
     }
   ]

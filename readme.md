@@ -1,6 +1,13 @@
 # Above & Beyond Savannah — Premium V2
 
-Open `index.html` for the full website preview. Includes seven static pages.
+Open `index.html` for the full website preview. Includes six static pages.
+
+## Local development
+
+Run `npm install`, then `npm run dev` from this directory. Open
+`http://127.0.0.1:5173/` and leave the terminal running. CSS updates in place;
+HTML, JavaScript and JSON changes reload the page automatically after saving.
+Use this address instead of Live Server's port 5500 for Vite hot updates.
 
 ## Improvements
 - Responsive readability and touch target pass, visible keyboard focus and reduced-motion support.
