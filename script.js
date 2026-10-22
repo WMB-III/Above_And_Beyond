@@ -33,6 +33,14 @@ const vehicleAmenities = {
   "56-Passenger Motor Coach": "A full-size coach cabin accommodates larger groups in one shared passenger space. Complimentary Wi-Fi adds convenience during regional transfers and longer journeys.",
 };
 let galleries = [];
+const sprinterGalleryIds = new Set([
+  "mercedes-sprinter-13",
+  "unresolved-69-78-14pax",
+  "vehicle-72",
+  "vehicle-76",
+]);
+let selectedSprinterId = "mercedes-sprinter-13";
+let fleetFilter = "all";
 function fleetType(g) {
   const n = galleryNames[g.gallery_id] || "";
   return /Coach/i.test(n)
@@ -51,9 +59,19 @@ function fleetPlaceholder() {
 }
 function renderFleet(filter = "all") {
   if (!fleetRoot) return;
+  fleetFilter = filter;
+  const sprinters = galleries
+    .filter((g) => sprinterGalleryIds.has(g.gallery_id))
+    .sort((a, b) => a.pax_max_capacity - b.pax_max_capacity);
   fleetRoot.innerHTML = galleries
+    .filter((g) => !sprinterGalleryIds.has(g.gallery_id) || g.gallery_id === "mercedes-sprinter-13")
     .filter((g) => filter === "all" || fleetType(g) === filter)
     .map((g) => {
+      const isSprinter = sprinterGalleryIds.has(g.gallery_id);
+      if (isSprinter) g = sprinters.find((x) => x.gallery_id === selectedSprinterId) || g;
+      const selector = isSprinter
+        ? `<div class="sprinter-options"><label for="sprinter-passengers">Passenger capacity</label><select id="sprinter-passengers" data-sprinter-passengers>${sprinters.map((variant) => `<option value="${variant.gallery_id}" ${variant.gallery_id === g.gallery_id ? "selected" : ""}>${variant.pax_max_capacity} Passengers</option>`).join("")}</select><p>Choose a capacity to see its photos.</p></div>`
+        : "";
       const approved = Boolean(g.website_cover_approved && g.cover_image);
       const previewImage = approved ? g.cover_image : g.gallery_image_paths[0];
       const label = galleryNames[g.gallery_id] || "Luxury vehicle";
@@ -64,7 +82,7 @@ function renderFleet(filter = "all") {
         : fleetPlaceholder();
       return `<article class="vehicle fleet-photo-card"><button type="button" class="fleet-card-open" data-gallery-id="${
         g.gallery_id
-      }" ${g.gallery_image_paths.length ? "" : "disabled"} aria-label="${g.gallery_image_paths.length ? "View photos of" : "Photo coming soon for"} ${label}"><div class="vehicle-art fleet-cover">${picture}</div><div class="vehicle-meta"><h3>${label}</h3><p>${g.pax_max_capacity ? `Up to ${g.pax_max_capacity} passengers` : "Contact us for passenger capacity"}${g.gallery_image_paths.length ? ` · ${g.gallery_image_paths.length} photo${g.gallery_image_paths.length === 1 ? "" : "s"}` : ""}</p><p class="vehicle-amenities">${vehicleAmenities[label] || ""}</p>${g.gallery_image_paths.length ? '<span class="fleet-view-gallery">VIEW PHOTOS &nbsp; ↗</span>' : ""}</div></button></article>`;
+      }" ${g.gallery_image_paths.length ? "" : "disabled"} aria-label="${g.gallery_image_paths.length ? "View photos of" : "Photo coming soon for"} ${label}"><div class="vehicle-art fleet-cover">${picture}</div><div class="vehicle-meta"><h3>${label}</h3><p>${g.pax_max_capacity ? `Up to ${g.pax_max_capacity} passengers` : "Contact us for passenger capacity"}${g.gallery_image_paths.length ? ` · ${g.gallery_image_paths.length} photo${g.gallery_image_paths.length === 1 ? "" : "s"}` : ""}</p><p class="vehicle-amenities">${vehicleAmenities[label] || ""}</p>${g.gallery_image_paths.length ? '<span class="fleet-view-gallery">VIEW PHOTOS &nbsp; ↗</span>' : ""}</div></button>${selector}</article>`;
     })
     .join("");
 }
@@ -127,6 +145,12 @@ if (fleetRoot) {
       fleetRoot.innerHTML =
         "<p>Fleet images could not load. Please contact our team for vehicle details.</p>";
     });
+  fleetRoot.addEventListener("change", (e) => {
+    if (!e.target.matches("[data-sprinter-passengers]")) return;
+    selectedSprinterId = e.target.value;
+    renderFleet(fleetFilter);
+    fleetRoot.querySelector("[data-sprinter-passengers]").focus();
+  });
   fleetRoot.addEventListener("click", (e) => {
     const b = e.target.closest("[data-gallery-id]");
     if (b) openFleetGallery(b.dataset.galleryId);

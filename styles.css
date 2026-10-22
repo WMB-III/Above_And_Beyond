@@ -229,3 +229,12 @@ footer a,footer small{font-size:clamp(13px,.86vw,16px)!important;line-height:1.6
 
 /* Keep fleet photos flush with the top of equal-height grid cards. */
 .fleet-photo-card .fleet-card-open{display:flex;flex-direction:column;justify-content:flex-start}.fleet-photo-card .fleet-cover{flex-shrink:0}
+
+/* Sprinter capacity selection stays outside the gallery button. */
+.fleet-photo-card:has(.sprinter-options){display:flex;flex-direction:column}
+.fleet-photo-card:has(.sprinter-options) .fleet-card-open{height:auto;flex:1}
+.sprinter-options{padding:0 24px 24px}
+.sprinter-options label{display:block;font-weight:700;margin-bottom:8px}
+.sprinter-options select{width:100%;min-height:44px;padding:10px 12px;border:1px solid #b38a3e;border-radius:4px;background:#fff;color:#171717;font:inherit;cursor:pointer}
+.sprinter-options select:focus-visible{outline:3px solid #b38a3e;outline-offset:3px}
+.sprinter-options p{font-size:13px;margin:8px 0 0}
